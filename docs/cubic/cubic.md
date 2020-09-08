@@ -394,7 +394,7 @@ To inslall R in your desired directory, follow the following steps.
     echo export PATH="$HOME/R/bin:$PATH" >> .bash_profile or .bashrc # add R to bash
    ```
 
-    >You can load higher version of `gcc` compiler if required for some R version.
+    >You can load a higher version of `gcc` compiler if required for some R version. This command is also the solution to error messages like `cannot find -lgfortran` that might come up during package installation. 
    ```bash
     $ module load gcc/version-number
    ```
